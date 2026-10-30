@@ -1,0 +1,143 @@
+/* App.css */
+html {
+  scroll-behavior: smooth; /* Permite el desplazamiento suave entre secciones */
+}
+
+.contenedor-app {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #121212;
+  color: #e0e0e0;
+  min-height: 100vh;
+}
+
+/* Estilos del Menú Navegación Fijo */
+.menu-navegacion {
+  background-color: #1a1a1a;
+  color: #00ffcc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  border-bottom: 2px solid #9b51e0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu-navegacion ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-navegacion a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu-navegacion a:hover {
+  color: #00ffcc;
+}
+
+/* Estilos de Secciones Landing */
+.seccion-principal {
+  padding: 20px;
+  background-color: #18181b;
+}
+
+.bloque-seccion {
+  padding: 60px 20px;
+  border-bottom: 1px solid #27272a;
+}
+
+.seccion-principal h1, .bloque-seccion h2 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.seccion-principal p {
+  color: #a1a1aa;
+  font-size: 1.1rem;
+}
+
+.imagen-destacada {
+  border-radius: 15px;
+  margin: 20px 0;
+  box-shadow: 0px 4px 20px rgba(0, 255, 204, 0.2);
+}
+
+/* Botón con efecto Hover */
+.boton-accion {
+  background-color: #00ffcc;
+  color: #121212;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.boton-accion:hover {
+  background-color: #00b38f;
+  transform: scale(1.05);
+}
+
+.mensaje-sorpresa {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #9b51e0;
+  font-weight: bold;
+}
+
+/* Estilos del Catálogo */
+.grid-catalogo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.tarjeta-juego {
+  background-color: #27272a;
+  border: 1px solid #3f3f46;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.tarjeta-juego h3 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+}
+
+.precio {
+  display: block;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #9b51e0;
+}
+
+/* Estilos de Sobre Nosotros */
+.texto-nosotros {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Estilos del Footer */
+.pie-pagina {
+  background-color: #1a1a1a;
+  color: #a1a1aa;
+  padding: 40px 20px;
+  border-top: 1px solid #27272a;
+}
